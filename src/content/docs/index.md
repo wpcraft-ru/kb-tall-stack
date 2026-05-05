@@ -21,10 +21,27 @@ sidebar:
 ## Livewire
 
 - [Введение](livewire/index)
+- [Установка и Quickstart](livewire/quickstart-installation)
+- [Компоненты: форматы и рендеринг](livewire/components)
+- [Свойства и привязка данных](livewire/properties-data-binding)
+- [Действия и события](livewire/actions-events)
+- [Формы и валидация](livewire/forms-validation)
+- [Вложенные компоненты](livewire/nesting-children)
+- [Интеграция с Alpine.js](livewire/alpine-integration)
+- [Жизненный цикл и тестирование](livewire/lifecycle-testing)
+- [Безопасность](livewire/security-best-practices)
 
 ## Tailwind CSS
 
 - [Введение](tailwind/index)
+- [Установка и настройка](tailwind/installation-setup)
+- [Утилитарный подход и основы](tailwind/utility-first-fundamentals)
+- [Адаптивный дизайн](tailwind/responsive-design)
+- [Тёмная тема](tailwind/dark-mode)
+- [Кастомизация](tailwind/customization)
+- [Layout: Flexbox и Grid](tailwind/layout-core)
+- [Типографика и фоны](tailwind/typography-backgrounds)
+- [Анимации и переходы](tailwind/transitions-animations)
 
 ## Alpine.js
 
