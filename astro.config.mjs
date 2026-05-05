@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightThemeSix from '@six-tech/starlight-theme-six';
 
 // https://starlight.astro.build/
 export default defineConfig({
@@ -8,6 +9,13 @@ export default defineConfig({
     starlight({
       title: 'KB TALLstack',
       description: 'База знаний по TALL-стеку: Laravel, Livewire, Alpine.js, Tailwind CSS и экосистеме',
+      plugins: [
+        starlightThemeSix({
+          navLinks: [
+            { label: 'Каталог', link: '/index' },
+          ],
+        }),
+      ],
       logo: {
         src: './src/assets/logo.svg',
       },
