@@ -38,6 +38,14 @@ sidebar:
 ## FilamentPHP
 
 - [Введение](filament/index)
+- [Что такое Filament и установка](filament/introduction-installation)
+- [Быстрый старт в Filament](filament/getting-started)
+- [Панели и конфигурация](filament/panels-and-configuration)
+- [Resources: CRUD-интерфейсы](filament/resources-crud)
+- [Формы и поля](filament/forms-and-fields)
+- [Таблицы и фильтры](filament/tables-and-filters)
+- [Infolists, Actions и Notifications](filament/infolists-actions-notifications)
+- [Виджеты, тестирование и деплой](filament/widgets-testing-deployment)
 
 ## Деплой и DevOps
 
