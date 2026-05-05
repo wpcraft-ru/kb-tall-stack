@@ -1,0 +1,30 @@
+/* Кастомные стили KB TALLstack */
+
+:root {
+  --sl-color-accent-low: #1a1a2e;
+  --sl-color-accent: #4f46e5;
+  --sl-color-accent-high: #a5b4fc;
+  --sl-color-bg-nav: #0f172a;
+  --sl-color-bg-sidebar: #0f172a;
+}
+
+/* Тёмная тема */
+:root[data-theme='dark'] {
+  --sl-color-bg-nav: #0f172a;
+  --sl-color-bg-sidebar: #0f172a;
+}
+
+/* Подсветка кода */
+code {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* Улучшение читаемости aside */
+.starlight-aside {
+  border-radius: 8px;
+}
+
+/* Ширина контента */
+.sl-container {
+  max-width: 56rem;
+}
