@@ -28,7 +28,19 @@ sidebar:
 
 ## Alpine.js
 
-- [Введение](alpine/index)
+- [Введение](alpine/index.md)
+- [Установка и начало работы](alpine/installation.md)
+- [Состояние и данные (x-data)](alpine/state-and-data.md)
+- [Шаблоны и события](alpine/templating-and-events.md)
+- [Привязки и модель](alpine/binding.md)
+- [Циклы и ссылки на DOM](alpine/loops-and-refs.md)
+- [Анимации и эффекты](alpine/transitions.md)
+- [Magics (магические переменные)](alpine/magics.md)
+- [Глобальное состояние (Stores)](alpine/stores.md)
+- [Жизненный цикл и реактивность](alpine/lifecycle.md)
+- [Плагины](alpine/plugins.md)
+- [UI-компоненты](alpine/components.md)
+- [Продвинутые темы](alpine/advanced.md)
 
 ## Экосистема
 

@@ -7,6 +7,27 @@ sidebar:
 
 # 📝 Лог операций
 
+## 2026-05-05 — ingest | Alpine.js Documentation (53 страницы)
+
+### Добавлено
+- `[alpine/installation](src/content/docs/alpine/installation.md)` — Способы подключения: CDN, NPM. Быстрый старт. Обновление с V2 на V3.
+- `[alpine/state-and-data](src/content/docs/alpine/state-and-data.md)` — x-data, вложенные данные, Alpine.data() для переиспользования, x-init.
+- `[alpine/templating-and-events](src/content/docs/alpine/templating-and-events.md)` — x-text, x-html, x-show, x-if, x-on (@) — события, модификаторы, кастомные события.
+- `[alpine/binding](src/content/docs/alpine/binding.md)` — x-bind, x-model, x-modelable, Alpine.bind().
+- `[alpine/loops-and-refs](src/content/docs/alpine/loops-and-refs.md)` — x-for, ключи, x-ref, $refs, x-id.
+- `[alpine/transitions](src/content/docs/alpine/transitions.md)` — x-transition, x-teleport, x-cloak, x-ignore, x-effect.
+- `[alpine/magics](src/content/docs/alpine/magics.md)` — Полный справочник magics: $el, $refs, $store, $watch, $dispatch, $nextTick, $root, $data, $id.
+- `[alpine/stores](src/content/docs/alpine/stores.md)` — Глобальное состояние: Alpine.store(), $store, Alpine.bind().
+- `[alpine/lifecycle](src/content/docs/alpine/lifecycle.md)` — Хуки: x-init, $watch, x-effect, alpine:init. Реактивность: Alpine.reactive(), Alpine.effect().
+- `[alpine/plugins](src/content/docs/alpine/plugins.md)` — 9 официальных плагинов: Mask, Intersect, Resize, Persist, Focus, Collapse, Anchor, Morph, Sort.
+- `[alpine/components](src/content/docs/alpine/components.md)` — UI-компоненты: Dropdown, Modal, интеграции со сторонними библиотеками.
+- `[alpine/advanced](src/content/docs/alpine/advanced.md)` — Расширение: кастомные директивы/magics. Async/await. CSP-режим.
+- `[alpine/index](src/content/docs/alpine/index.md)` — Обновлён: навигационный хаб по всему разделу.
+- Обновлён `index.md` — добавлены 12 страниц Alpine.js в каталог.
+
+### Источник
+`raw/2026/0312/` — 53 страницы официальной документации Alpine.js (alpinejs.dev), скачаны через `summarize`.
+
 ## 2026-05-04
 
 ### Создано
