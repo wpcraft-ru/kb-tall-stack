@@ -1,6 +1,9 @@
 # Scripts
 *.sh
 
+# URL lists (only for fetching)
+**/urls*.txt
+
 # Dependencies
 node_modules/
 
