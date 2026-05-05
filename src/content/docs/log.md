@@ -7,6 +7,23 @@ sidebar:
 
 # 📝 Лог операций
 
+## 2026-05-05 — ingest | Tailwind CSS 4.x Docs
+
+### Добавлено
+- `[tailwind/installation-setup](src/content/docs/tailwind/installation-setup.md)` — Установка: Vite, PostCSS, CLI, Play CDN
+- `[tailwind/utility-first-fundamentals](src/content/docs/tailwind/utility-first-fundamentals.md)` — Утилитарный подход, hover/focus-состояния, responsive-префиксы
+- `[tailwind/responsive-design](src/content/docs/tailwind/responsive-design.md)` — Адаптивный дизайн: breakpoints, mobile-first, контейнеры
+- `[tailwind/dark-mode](src/content/docs/tailwind/dark-mode.md)` — Тёмная тема: media/selector стратегии, кастомизация
+- `[tailwind/customization](src/content/docs/tailwind/customization.md)` — Кастомизация: theme, конфиг, кастомные значения, плагины
+- `[tailwind/layout-core](src/content/docs/tailwind/layout-core.md)` — Flexbox и Grid: display, flex, grid, gap, выравнивание
+- `[tailwind/typography-backgrounds](src/content/docs/tailwind/typography-backgrounds.md)` — Типографика, цвета фона, тени, градиенты
+- `[tailwind/transitions-animations](src/content/docs/tailwind/transitions-animations.md)` — Transition, animation, transform
+- `[tailwind/index](src/content/docs/tailwind/index.md)` — Обновлён: навигационный хаб по разделу Tailwind CSS
+- 198 страниц документации скачано в `raw/2026/0207/`
+
+### Источник
+`raw/2026/0207/` — официальная документация Tailwind CSS 4.x с [tailwindcss.com/docs](https://tailwindcss.com/docs)
+
 ## 2026-05-05 — ingest | Livewire 4.x Docs
 
 ### Добавлено
