@@ -7,23 +7,6 @@ sidebar:
 
 # 📝 Лог операций
 
-## 2026-05-05 — ingest | FilamentPHP 5.x Docs
-
-### Добавлено
-- `[filament/introduction-installation](src/content/docs/filament/introduction-installation.md)` — Что такое Filament, требования, установка
-- `[filament/getting-started](src/content/docs/filament/getting-started.md)` — Быстрый старт: первый Resource, навигация, дашборд
-- `[filament/panels-and-configuration](src/content/docs/filament/panels-and-configuration.md)` — Панели, мульти-панели, конфигурация, брендинг, рендер-хуки
-- `[filament/resources-crud](src/content/docs/filament/resources-crud.md)` — Resources: создание, CRUD, отношения, авторизация, глобальный поиск
-- `[filament/forms-and-fields](src/content/docs/filament/forms-and-fields.md)` — Form Builder: типы полей, валидация, Repeater, Builder, кастомные поля
-- `[filament/tables-and-filters](src/content/docs/filament/tables-and-filters.md)` — Table Builder: колонки, фильтры, actions, группировка, summaries
-- `[filament/infolists-actions-notifications](src/content/docs/filament/infolists-actions-notifications.md)` — Infolists, Actions, Database/Broadcast Notifications
-- `[filament/widgets-testing-deployment](src/content/docs/filament/widgets-testing-deployment.md)` — Виджеты, тестирование, деплой
-- 161 страница документации скачана в `raw/2025/1202/`
-- Обновлён `index.md`
-
-### Источник
-`raw/2025/1202/` — документация FilamentPHP 5.x с [filamentphp.com/docs](https://filamentphp.com/docs/5.x)
-
 ## 2026-05-05 — ingest | Livewire 4.x Docs
 
 ### Добавлено
@@ -57,7 +40,9 @@ sidebar:
 ### Источник
 `raw/2025/1202/` — документация FilamentPHP 5.x с [filamentphp.com/docs](https://filamentphp.com/docs/5.x)
 
-## 2026-05-04 — ingest | Clean Code in Laravel (Ahmad Mayahi)
+## 2026-05-04 — ingest | Clean Code in Laravel
+- 11 страниц: clean-architecture, dto, eloquent, jobs-queues, apis, validation, naming, pest, spatie, deployment, rate-limiting
+- Источник: `raw/2025/1103/` (28 гл.)
 
 ### Добавлено
 - `[laravel/clean-architecture](src/content/docs/laravel/clean-architecture.md)` — Thin Controllers, Action Pattern, DI, View Models

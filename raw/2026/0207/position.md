@@ -1,0 +1,27 @@
+Utilities for controlling how an element is positioned in the document.
+Statically positioning elements
+Use the static utility to position an element according to the normal flow of the document:
+<div class="static ..."> <p>Static parentp> <div class="absolute bottom-0 left-0 ..."> <p>Absolute childp> div>div>
+With statically positioned elements, any offsets will be ignored and the element will not act as a position reference for absolutely positioned children.
+Relatively positioning elements
+Use the relative utility to position an element according to the normal flow of the document:
+<div class="relative ..."> <p>Relative parentp> <div class="absolute bottom-0 left-0 ..."> <p>Absolute childp> div>div>
+With relatively position elements, any offsets are calculated relative to the element's normal position and the element will act as a position reference for absolutely positioned children.
+Absolutely positioning elements
+Use the absolute utility to position an element outside of the normal flow of the document, causing neighboring elements to act as if the element doesn't exist:
+<div class="static ..."> <div class="static ..."><p>Static childp>div> <div class="inline-block ..."><p>Static siblingp>div> <div class="absolute ..."><p>Absolute childp>div> <div class="inline-block ..."><p>Static siblingp>div>div>
+With absolutely positioned elements, any offsets are calculated relative to the nearest parent that has a position other than static, and the element will act as a position reference for other absolutely positioned children.
+Fixed positioning elements
+Use the fixed utility to position an element relative to the browser window:
+Scroll this element to see the fixed positioning in action
+<div class="relative"> <div class="fixed top-0 right-0 left-0">Contactsdiv> <div> <div> <img src="/img/andrew.jpg" /> <strong>Andrew Alfredstrong> div> <div> <img src="/img/debra.jpg" /> <strong>Debra Houstonstrong> div> div>div>
+With fixed positioned elements, any offsets are calculated relative to the viewport and the element will act as a position reference for absolutely positioned children:
+Sticky positioning elements
+Use the sticky utility to position an element as relative until it crosses a specified threshold, then treat it as fixed until its parent is off screen:
+Scroll this element to see the sticky positioning in action
+<div> <div> <div class="sticky top-0 ...">Adiv> <div> <div> <img src="/img/andrew.jpg" /> <strong>Andrew Alfredstrong> div> <div> <img src="/img/aisha.jpg" /> <strong>Aisha Houstonstrong> div> div> div> <div> <div class="sticky top-0">Bdiv> <div> <div> <img src="/img/bob.jpg" /> <strong>Bob Alfredstrong> div> div> div> div>
+With sticky positioned elements, any offsets are calculated relative to the element's normal position and the element will act as a position reference for absolutely positioned children.
+Responsive design
+Prefix a position utility with a breakpoint variant like md: to only apply the utility at medium screen sizes and above:
+<div class="relative md:absolute ..."> div>
+Learn more about using variants in the variants documentation.

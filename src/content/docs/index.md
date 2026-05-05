@@ -34,6 +34,14 @@ sidebar:
 ## Tailwind CSS
 
 - [Введение](tailwind/index)
+- [Установка и настройка](tailwind/installation-setup)
+- [Утилитарный подход и основы](tailwind/utility-first-fundamentals)
+- [Адаптивный дизайн](tailwind/responsive-design)
+- [Тёмная тема](tailwind/dark-mode)
+- [Кастомизация](tailwind/customization)
+- [Layout: Flexbox и Grid](tailwind/layout-core)
+- [Типографика и фоны](tailwind/typography-backgrounds)
+- [Анимации и переходы](tailwind/transitions-animations)
 
 ## Alpine.js
 
